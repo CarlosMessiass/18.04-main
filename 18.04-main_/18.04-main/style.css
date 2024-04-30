@@ -11,13 +11,55 @@ h4,
 h5,
 h6 {
   color: #1e1e1e;
+  text-align: center;
 }
+
 
 a {
-  color: #1e1e1e;
-  transition: all 0.5s ease-in-out;
+  color: #ffffff;
+  transition: all 0.10s ease-in-out;
+  text-decoration: none;
 }
-
+.services-mf{
+  justify-content: center;
+  display: flex;
+  column-gap: 0cap;
+}
+.card-text{
+  text-align: center;
+  border-radius: 0%;
+  border: 0cap;
+  margin: 0%;
+  
+}
+.border-warning{
+  align-items: center;
+   justify-content: space-around;
+   width: 30%;
+   height: 30%;
+   align-items: center;
+   background-color: rgb(31, 31, 36);
+   text-align: justify;
+  
+}
+.border-card-body{
+  background-color: rgb(0, 0, 0);
+}
+.card{
+  width: auto;
+  height: auto;
+  float: left;
+  column-gap: normal;
+  margin: 66px;
+  border: 8px;
+  border-radius: 3px;
+  border-color: #000000;
+ 
+}  
+.card-body{
+ text-align:center ;
+ color: rgb(255, 255, 255);
+}
 a:hover {
   color: #0078ff;
   text-decoration: none;
@@ -1331,6 +1373,7 @@ footer .btn-social button {
   transition: .2s;
 }
 
+
 footer h6 {
   color: #fff;
   display: flex;
@@ -1348,17 +1391,16 @@ footer .extra-small {
 
 .card {
   margin: 20px 4%;
-  border: 1px solid #000000;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-  background: linear-gradient(#d3b71a, #f0d32a, #ffffff);
+  border-radius: 10px;
+  box-shadow: 0 1px 1px rgba(10, 10, 10, 0.1);
+  transition: transform 1s ease-in-out;
+  background: transparent;
 }
 
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 10px rgba(10, 10, 10, 0.2);
 }
 
 .card-img-top {
